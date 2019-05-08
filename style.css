@@ -3,12 +3,12 @@ body{
     animation-duration:3s;
     transition:all 1s;
     animation-name:BodyChange;
-    background-color:#bbf;
+    background-color:#440bed;
 }
 
 @keyframes BodyChange{
     50%{
-        background-color:#ccf;
+        background-color:#f32a2a;
     }
 }
 
@@ -28,7 +28,7 @@ body{
 img{
     border-radius:1%;
     width:99%;
-    border:5px ridge #555;
+    border:5px ridge #fff;
 }
 
 #title{
@@ -38,7 +38,7 @@ img{
     font-weight:bold;
     position:relative;
     text-align:center;
-    filter:drop-shadow(0 0 2px blue);
+    filter:drop-shadow(0 0 2px );
     animation-iteration-count:infinite;
     animation-duration:2s;
     animation-name:go;
@@ -46,7 +46,7 @@ img{
 
 @keyframes go{
     50%{
-        filter:drop-shadow(0 0 2px aqua);
+        filter:drop-shadow(0 0 2px #ff9900);
     }
 }
 
@@ -90,7 +90,7 @@ footer{
 }
 
 .fix{
-    background:linear-gradient(to left , #669 , #99c , #669);
+    background:linear-gradient(to left , #1616f3 , #8400a5 , #ff1616);
 }
 
 ol{
